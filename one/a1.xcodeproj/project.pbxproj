@@ -1,0 +1,1121 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4CA0BE03B8A7485CBC7EE249 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BAF631635D5E4682BEBA22E1 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				92F394397D39495989A9B7D3 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				7520111ED2204F168D82DC0B /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		AB4026A5C89147D3BCF04C62 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A7E1B111EAA94BCAB60C7EA4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				1BD5EAEB28104B82A5FCF77F /* CMake Rules */,
+			);
+			dependencies = (
+				5740B2F767D1476CBA522A5C /* PBXTargetDependency */,
+				F7C40E5A2BE44BBCBBDAD4E2 /* PBXTargetDependency */,
+				0B98D389D1284C23870DBA23 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		E969FDFDFB2740DA87D897D9 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 348D1333793D44B0BCF8B34D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				60F9EB86DCA244F3B298A3E6 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0DB73C8013654F59A8A64BBA /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/surf.cpp */ = {isa = PBXBuildFile; fileRef = ADBB345CAB3D43B0A4911DE0 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/surf.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		198B694D711747238C5F89CC /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Matrix2f.cpp */ = {isa = PBXBuildFile; fileRef = 370D0BFD8218432DA4210C6A /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Matrix2f.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1B53F864C0C54EFB8E2BDF4E /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Matrix4f.h */ = {isa = PBXBuildFile; fileRef = 89B7741BBA34400A85C1363F /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Matrix4f.h */; settings = {COMPILER_FLAGS = ""; }; };
+		20D4F72293874C669777BC3A /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Quat4f.h */ = {isa = PBXBuildFile; fileRef = EAA670A4DB54498C88CDE32F /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Quat4f.h */; settings = {COMPILER_FLAGS = ""; }; };
+		2C48C35DF4544F508E964435 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Vector2f.h */ = {isa = PBXBuildFile; fileRef = 41F02073337641E0B6589CC4 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Vector2f.h */; settings = {COMPILER_FLAGS = ""; }; };
+		320D5A213E6748A78CCDE5E4 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 271DC251AC98468B95DC766E /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		39B31A7FFD4B4492B6A34666 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Vector3f.cpp */ = {isa = PBXBuildFile; fileRef = E6D0AAD1EE064E9BA3C6FB8E /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Vector3f.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3CB6912B6E754AC2B87019E3 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Matrix4f.cpp */ = {isa = PBXBuildFile; fileRef = A8126FD48A754ED7AF5051E9 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Matrix4f.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3F64EDB7FFD0441FB0379395 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Vector2f.cpp */ = {isa = PBXBuildFile; fileRef = 12C5795726F54FB3A65132AC /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Vector2f.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		462AEB1A84034DE2851BEC0E /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/surf.h */ = {isa = PBXBuildFile; fileRef = B4DD896C1CFE4994A24FF769 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/surf.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5148681A58B54D0982C07997 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/curve.h */ = {isa = PBXBuildFile; fileRef = 0542FEB70F8149CB94E3C7AE /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/curve.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5F5C209559034AA7A3BABA35 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/parse.cpp */ = {isa = PBXBuildFile; fileRef = A4AEEA0D4D56462FAF330C0C /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/parse.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6243FE5BA79A4B22B8427C00 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 96CE5B6E19F74E7A99701622 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		6B37689A7632458D98B08BD6 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/extra.h */ = {isa = PBXBuildFile; fileRef = 5824392D3EE042D99813D02A /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/extra.h */; settings = {COMPILER_FLAGS = ""; }; };
+		76D3998A31C84B148FF70FDE /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Matrix3f.h */ = {isa = PBXBuildFile; fileRef = BC7CAEA6FD3E4A7DA8746C83 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Matrix3f.h */; settings = {COMPILER_FLAGS = ""; }; };
+		7B4D93C4BFCC4255872A7284 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Vector3f.h */ = {isa = PBXBuildFile; fileRef = 929D7250FD6447B1B7F16988 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Vector3f.h */; settings = {COMPILER_FLAGS = ""; }; };
+		82607B33DC4F4D68A066584D /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/camera.cpp */ = {isa = PBXBuildFile; fileRef = 91CD7192C5BA4A2E91F56972 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/camera.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		89075FDF7C0740D2974EADAA /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/tuple.h */ = {isa = PBXBuildFile; fileRef = 2638C06AE7854F8593292B0F /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/tuple.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9BEC5403B9DE4D38B2A65DC6 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Quat4f.cpp */ = {isa = PBXBuildFile; fileRef = 6614E7526DF34234B9606734 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Quat4f.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9CE5E0A4F67D41E3A32F7257 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Vector4f.cpp */ = {isa = PBXBuildFile; fileRef = 268980205DBA4C8F8BAB40B0 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Vector4f.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A388A077C4DD424BA41B62D6 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/parse.h */ = {isa = PBXBuildFile; fileRef = DB809A59D98040EA91BA7319 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/parse.h */; settings = {COMPILER_FLAGS = ""; }; };
+		AB27C6FB5C8D4063811D733E /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Matrix3f.cpp */ = {isa = PBXBuildFile; fileRef = DD0642BCDB0748719F4BD508 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Matrix3f.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B8F19F5F27184BDFBF5F537F /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/camera.h */ = {isa = PBXBuildFile; fileRef = E12A4F6786F7446889CF4CE6 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/camera.h */; settings = {COMPILER_FLAGS = ""; }; };
+		BD1AA5B5CC4C4D7C89413D8A /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/curve.cpp */ = {isa = PBXBuildFile; fileRef = D391E0B90D074B169D26B188 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/curve.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BDEA583307314214A9716B58 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Matrix2f.h */ = {isa = PBXBuildFile; fileRef = B6078ECF8E70432C96FE7A52 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Matrix2f.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C0D9AB486207439B95BCC4CA /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Vector4f.h */ = {isa = PBXBuildFile; fileRef = DC9949DAA12B412B96C01BBC /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Vector4f.h */; settings = {COMPILER_FLAGS = ""; }; };
+		CA2F2F73938D4E42A85C37A6 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/vecmath.h */ = {isa = PBXBuildFile; fileRef = 459F815F46FE472CB85358FB /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/vecmath.h */; settings = {COMPILER_FLAGS = ""; }; };
+		F1CE0E6FB45F4FE099DC8C11 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A8783C6BBE35454F99AA5DCA /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		03EA226C68AC4BC9BE579EEE = {
+			isa = PBXBuildStyle;
+		};
+		6EFC7D39FD1744B5B8C57DD4 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		9D904D3A727C445F90C57AC5 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		CCA3499C03614422B7B4DB53 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		E7C3ECAC6F524782987069A2 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1D460B0CEFC04B9EA0D5CE85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F009B5A1925842F19AD7BE4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB4026A5C89147D3BCF04C62;
+			remoteInfo = ALL_BUILD;
+		};
+		2920E698FF2C40FA8874EEBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F009B5A1925842F19AD7BE4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E72E74AC9D94DCDA16E7BD5;
+			remoteInfo = vecmath;
+		};
+		551C49BF61E14052B2B8DE2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F009B5A1925842F19AD7BE4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E969FDFDFB2740DA87D897D9;
+			remoteInfo = ZERO_CHECK;
+		};
+		5CCD6666382A471C82346521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F009B5A1925842F19AD7BE4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E72E74AC9D94DCDA16E7BD5;
+			remoteInfo = vecmath;
+		};
+		75618978C2F24628A9E3CB6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F009B5A1925842F19AD7BE4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E969FDFDFB2740DA87D897D9;
+			remoteInfo = ZERO_CHECK;
+		};
+		96691A7C60F64CC5882CAE11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F009B5A1925842F19AD7BE4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E935E9FE782440C9EECB01A;
+			remoteInfo = a1;
+		};
+		EC23A80F72614EC0B30BE973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F009B5A1925842F19AD7BE4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E969FDFDFB2740DA87D897D9;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0542FEB70F8149CB94E3C7AE /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/curve.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = curve.h; path = src/curve.h; sourceTree = SOURCE_ROOT; };
+		12C5795726F54FB3A65132AC /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Vector2f.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Vector2f.cpp; path = vecmath/Vector2f.cpp; sourceTree = SOURCE_ROOT; };
+		2638C06AE7854F8593292B0F /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/tuple.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tuple.h; path = src/tuple.h; sourceTree = SOURCE_ROOT; };
+		268980205DBA4C8F8BAB40B0 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Vector4f.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Vector4f.cpp; path = vecmath/Vector4f.cpp; sourceTree = SOURCE_ROOT; };
+		271DC251AC98468B95DC766E /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		2964DE1E326D44F1BF9155B8 /* a1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = a1; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		370D0BFD8218432DA4210C6A /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Matrix2f.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Matrix2f.cpp; path = vecmath/Matrix2f.cpp; sourceTree = SOURCE_ROOT; };
+		41F02073337641E0B6589CC4 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Vector2f.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vector2f.h; path = vecmath/include/Vector2f.h; sourceTree = SOURCE_ROOT; };
+		459F815F46FE472CB85358FB /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/vecmath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vecmath.h; path = vecmath/include/vecmath.h; sourceTree = SOURCE_ROOT; };
+		5824392D3EE042D99813D02A /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/extra.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = extra.h; path = src/extra.h; sourceTree = SOURCE_ROOT; };
+		6614E7526DF34234B9606734 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Quat4f.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Quat4f.cpp; path = vecmath/Quat4f.cpp; sourceTree = SOURCE_ROOT; };
+		83FFE7F6E7414A14B0627F53 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		89B7741BBA34400A85C1363F /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Matrix4f.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Matrix4f.h; path = vecmath/include/Matrix4f.h; sourceTree = SOURCE_ROOT; };
+		8B7AB39CFA554AF086575D9F /* vecmath */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libvecmath.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		91CD7192C5BA4A2E91F56972 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = camera.cpp; path = src/camera.cpp; sourceTree = SOURCE_ROOT; };
+		929D7250FD6447B1B7F16988 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Vector3f.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vector3f.h; path = vecmath/include/Vector3f.h; sourceTree = SOURCE_ROOT; };
+		96CE5B6E19F74E7A99701622 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = vecmath/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A00017B3071345968E224256 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A4AEEA0D4D56462FAF330C0C /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/parse.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parse.cpp; path = src/parse.cpp; sourceTree = SOURCE_ROOT; };
+		A8126FD48A754ED7AF5051E9 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Matrix4f.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Matrix4f.cpp; path = vecmath/Matrix4f.cpp; sourceTree = SOURCE_ROOT; };
+		A8783C6BBE35454F99AA5DCA /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ADBB345CAB3D43B0A4911DE0 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/surf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = surf.cpp; path = src/surf.cpp; sourceTree = SOURCE_ROOT; };
+		B4DD896C1CFE4994A24FF769 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/surf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = surf.h; path = src/surf.h; sourceTree = SOURCE_ROOT; };
+		B6078ECF8E70432C96FE7A52 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Matrix2f.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Matrix2f.h; path = vecmath/include/Matrix2f.h; sourceTree = SOURCE_ROOT; };
+		BC7CAEA6FD3E4A7DA8746C83 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Matrix3f.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Matrix3f.h; path = vecmath/include/Matrix3f.h; sourceTree = SOURCE_ROOT; };
+		D391E0B90D074B169D26B188 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/curve.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = curve.cpp; path = src/curve.cpp; sourceTree = SOURCE_ROOT; };
+		DB809A59D98040EA91BA7319 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/parse.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = parse.h; path = src/parse.h; sourceTree = SOURCE_ROOT; };
+		DC9949DAA12B412B96C01BBC /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Vector4f.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vector4f.h; path = vecmath/include/Vector4f.h; sourceTree = SOURCE_ROOT; };
+		DD0642BCDB0748719F4BD508 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Matrix3f.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Matrix3f.cpp; path = vecmath/Matrix3f.cpp; sourceTree = SOURCE_ROOT; };
+		E12A4F6786F7446889CF4CE6 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/camera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = camera.h; path = src/camera.h; sourceTree = SOURCE_ROOT; };
+		E6D0AAD1EE064E9BA3C6FB8E /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Vector3f.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Vector3f.cpp; path = vecmath/Vector3f.cpp; sourceTree = SOURCE_ROOT; };
+		EAA670A4DB54498C88CDE32F /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Quat4f.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Quat4f.h; path = vecmath/include/Quat4f.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		02A79EA4D6F14137B5AFD956 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				91CD7192C5BA4A2E91F56972 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/camera.cpp */,
+				D391E0B90D074B169D26B188 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/curve.cpp */,
+				271DC251AC98468B95DC766E /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/main.cpp */,
+				A4AEEA0D4D56462FAF330C0C /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/parse.cpp */,
+				ADBB345CAB3D43B0A4911DE0 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/surf.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		0E088E4E72844834A8949B00 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				EE952CA9238F4FBBAA5B3604 /* CMake Rules */,
+				83FFE7F6E7414A14B0627F53 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		170089DC399B43E880A2E58F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0E088E4E72844834A8949B00 /* ALL_BUILD */,
+				3B26639ACBAE4E0D8003357D /* ZERO_CHECK */,
+				54AA79DF3FC54F4B9363AF6B /* vecmath */,
+				F5176D556A92445FBF64F849 /* a1 */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		2C0893DEB4D445C085BF09AB /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				E12A4F6786F7446889CF4CE6 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/camera.h */,
+				0542FEB70F8149CB94E3C7AE /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/curve.h */,
+				5824392D3EE042D99813D02A /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/extra.h */,
+				DB809A59D98040EA91BA7319 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/parse.h */,
+				B4DD896C1CFE4994A24FF769 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/surf.h */,
+				2638C06AE7854F8593292B0F /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/tuple.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		3B26639ACBAE4E0D8003357D /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				FE4AD18B36DF4C0CBE936DEA /* CMake Rules */,
+				A00017B3071345968E224256 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		54AA79DF3FC54F4B9363AF6B /* vecmath */ = {
+			isa = PBXGroup;
+			children = (
+				D2007667EAF244DDAB15BBDF /* Source Files */,
+				8D8F4BC5E3584BE8A7414F20 /* Header Files */,
+				96CE5B6E19F74E7A99701622 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/CMakeLists.txt */,
+			);
+			name = vecmath;
+			sourceTree = "<group>";
+		};
+		775830D9D34C4156BB89ACAF = {
+			isa = PBXGroup;
+			children = (
+				170089DC399B43E880A2E58F /* Sources */,
+				8291D9AC6FC3475689BFAC1F /* Resources */,
+				8B8991754FF24C46980CD96A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8291D9AC6FC3475689BFAC1F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8B8991754FF24C46980CD96A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B7AB39CFA554AF086575D9F /* vecmath */,
+				2964DE1E326D44F1BF9155B8 /* a1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D8F4BC5E3584BE8A7414F20 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6078ECF8E70432C96FE7A52 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Matrix2f.h */,
+				BC7CAEA6FD3E4A7DA8746C83 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Matrix3f.h */,
+				89B7741BBA34400A85C1363F /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Matrix4f.h */,
+				EAA670A4DB54498C88CDE32F /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Quat4f.h */,
+				41F02073337641E0B6589CC4 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Vector2f.h */,
+				929D7250FD6447B1B7F16988 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Vector3f.h */,
+				DC9949DAA12B412B96C01BBC /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/Vector4f.h */,
+				459F815F46FE472CB85358FB /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include/vecmath.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		D2007667EAF244DDAB15BBDF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				370D0BFD8218432DA4210C6A /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Matrix2f.cpp */,
+				DD0642BCDB0748719F4BD508 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Matrix3f.cpp */,
+				A8126FD48A754ED7AF5051E9 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Matrix4f.cpp */,
+				6614E7526DF34234B9606734 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Quat4f.cpp */,
+				12C5795726F54FB3A65132AC /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Vector2f.cpp */,
+				E6D0AAD1EE064E9BA3C6FB8E /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Vector3f.cpp */,
+				268980205DBA4C8F8BAB40B0 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Vector4f.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		EE952CA9238F4FBBAA5B3604 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F5176D556A92445FBF64F849 /* a1 */ = {
+			isa = PBXGroup;
+			children = (
+				02A79EA4D6F14137B5AFD956 /* Source Files */,
+				2C0893DEB4D445C085BF09AB /* Header Files */,
+				A8783C6BBE35454F99AA5DCA /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/CMakeLists.txt */,
+			);
+			name = a1;
+			sourceTree = "<group>";
+		};
+		FE4AD18B36DF4C0CBE936DEA /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E935E9FE782440C9EECB01A /* a1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C63201A0324C6BB0C3E29C /* Build configuration list for PBXNativeTarget "a1" */;
+			buildPhases = (
+				7AF55F8092B9496FBA222878 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F4953C42D7E49D3A8969B9A /* PBXTargetDependency */,
+				315DCEB8F1684209814D17F3 /* PBXTargetDependency */,
+			);
+			name = a1;
+			productName = a1;
+			productReference = 2964DE1E326D44F1BF9155B8 /* a1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		4E72E74AC9D94DCDA16E7BD5 /* vecmath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F6DFF56A704966A9BA0054 /* Build configuration list for PBXNativeTarget "vecmath" */;
+			buildPhases = (
+				54354EDBFE014D6393AFA043 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AE40A6F30FD49B69AB4E55B /* PBXTargetDependency */,
+			);
+			name = vecmath;
+			productName = vecmath;
+			productReference = 8B7AB39CFA554AF086575D9F /* vecmath */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F009B5A1925842F19AD7BE4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 2A5E8079A46F44D79B59C5FB /* Build configuration list for PBXProject "a1" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				9D904D3A727C445F90C57AC5 /* Debug */,
+				CCA3499C03614422B7B4DB53 /* Release */,
+				6EFC7D39FD1744B5B8C57DD4 /* MinSizeRel */,
+				E7C3ECAC6F524782987069A2 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 775830D9D34C4156BB89ACAF;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				AB4026A5C89147D3BCF04C62 /* ALL_BUILD */,
+				E969FDFDFB2740DA87D897D9 /* ZERO_CHECK */,
+				4CA0BE03B8A7485CBC7EE249 /* install */,
+				4E72E74AC9D94DCDA16E7BD5 /* vecmath */,
+				3E935E9FE782440C9EECB01A /* a1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08C1C9984F70489EA777859B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		1BD5EAEB28104B82A5FCF77F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jorriebrettin/Desktop/Fall2015/6.837/one -f /Users/jorriebrettin/Desktop/Fall2015/6.837/one/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		39A04633019F40E68D7F52AB = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		60F9EB86DCA244F3B298A3E6 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jorriebrettin/Desktop/Fall2015/6.837/one -f /Users/jorriebrettin/Desktop/Fall2015/6.837/one/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		92F394397D39495989A9B7D3 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jorriebrettin/Desktop/Fall2015/6.837/one -f /Users/jorriebrettin/Desktop/Fall2015/6.837/one/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		AAB56E66E5894FF28E732158 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54354EDBFE014D6393AFA043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198B694D711747238C5F89CC /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Matrix2f.cpp */,
+				AB27C6FB5C8D4063811D733E /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Matrix3f.cpp */,
+				3CB6912B6E754AC2B87019E3 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Matrix4f.cpp */,
+				9BEC5403B9DE4D38B2A65DC6 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Quat4f.cpp */,
+				3F64EDB7FFD0441FB0379395 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Vector2f.cpp */,
+				39B31A7FFD4B4492B6A34666 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Vector3f.cpp */,
+				9CE5E0A4F67D41E3A32F7257 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Vector4f.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF55F8092B9496FBA222878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82607B33DC4F4D68A066584D /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/camera.cpp */,
+				BD1AA5B5CC4C4D7C89413D8A /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/curve.cpp */,
+				320D5A213E6748A78CCDE5E4 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/main.cpp */,
+				5F5C209559034AA7A3BABA35 /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/parse.cpp */,
+				0DB73C8013654F59A8A64BBA /* /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/surf.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B98D389D1284C23870DBA23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E72E74AC9D94DCDA16E7BD5 /* vecmath */;
+			targetProxy = 5CCD6666382A471C82346521 /* PBXContainerItemProxy */;
+		};
+		2F4953C42D7E49D3A8969B9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E969FDFDFB2740DA87D897D9 /* ZERO_CHECK */;
+			targetProxy = 75618978C2F24628A9E3CB6A /* PBXContainerItemProxy */;
+		};
+		315DCEB8F1684209814D17F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E72E74AC9D94DCDA16E7BD5 /* vecmath */;
+			targetProxy = 2920E698FF2C40FA8874EEBA /* PBXContainerItemProxy */;
+		};
+		5740B2F767D1476CBA522A5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E969FDFDFB2740DA87D897D9 /* ZERO_CHECK */;
+			targetProxy = EC23A80F72614EC0B30BE973 /* PBXContainerItemProxy */;
+		};
+		5AE40A6F30FD49B69AB4E55B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E969FDFDFB2740DA87D897D9 /* ZERO_CHECK */;
+			targetProxy = 551C49BF61E14052B2B8DE2E /* PBXContainerItemProxy */;
+		};
+		7520111ED2204F168D82DC0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB4026A5C89147D3BCF04C62 /* ALL_BUILD */;
+			targetProxy = 1D460B0CEFC04B9EA0D5CE85 /* PBXContainerItemProxy */;
+		};
+		F7C40E5A2BE44BBCBBDAD4E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E935E9FE782440C9EECB01A /* a1 */;
+			targetProxy = 96691A7C60F64CC5882CAE11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1019690A8AD14503A895E108 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -Wno-deprecated-declarations";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = vecmath;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		14CE0BB7514840DBAC987F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "     -Wno-deprecated-declarations";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Debug/libvecmath.a -framework AGL -framework OpenGL -framework GLUT -framework Cocoa";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = a1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		1CC09F78A262458287C17CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		2C6FE04005E6420D82783F15 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one/build;
+			};
+			name = RelWithDebInfo;
+		};
+		3B53C034903B4BA9BDF05AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		41BB7B53E7FC42A78E976222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one/build;
+			};
+			name = Release;
+		};
+		43D1E1D330E24098B3179E9F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		62B584E31814441497A7C37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one/build;
+			};
+			name = Debug;
+		};
+		68E3F2C44FDF41E697423887 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one/build;
+			};
+			name = MinSizeRel;
+		};
+		8394F2B51BAD40218568126F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		8F834A9EED894ADFB108468D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wno-deprecated-declarations";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = vecmath;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		91B4CA85CD9A4B86ABFBE250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "     -Wno-deprecated-declarations";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = vecmath;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		9A77C76D55E64DB6B79C3B7B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		9F2814907CA340ABAFBC8C01 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -Wno-deprecated-declarations";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/RelWithDebInfo/libvecmath.a -framework AGL -framework OpenGL -framework GLUT -framework Cocoa";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = a1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		A8F5B850923B4338A1434A8E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wno-deprecated-declarations";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/MinSizeRel/libvecmath.a -framework AGL -framework OpenGL -framework GLUT -framework Cocoa";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = a1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		B05DAC0427454C42A62A4044 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		B61AE13528EE4DF0A9E61D57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		B9C2ED2A314347139DEA430E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		C15124D0D16B4686ADCA246A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		DC3FBF28BD1E41A8A08C28C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		DF6DB49BFF5A40BBB35F1865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wno-deprecated-declarations";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = vecmath;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		E2F3333199234A78B948023A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		E5D5EABDF8DC4C8ABD8EAB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		F3BFED74327644859740A58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -Wno-deprecated-declarations";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/Release/libvecmath.a -framework AGL -framework OpenGL -framework GLUT -framework Cocoa";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = a1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jorriebrettin/Desktop/Fall2015/6.837/one/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26C63201A0324C6BB0C3E29C /* Build configuration list for PBXNativeTarget "a1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CE0BB7514840DBAC987F84 /* Debug */,
+				F3BFED74327644859740A58B /* Release */,
+				A8F5B850923B4338A1434A8E /* MinSizeRel */,
+				9F2814907CA340ABAFBC8C01 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2A5E8079A46F44D79B59C5FB /* Build configuration list for PBXProject "a1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B584E31814441497A7C37D /* Debug */,
+				41BB7B53E7FC42A78E976222 /* Release */,
+				68E3F2C44FDF41E697423887 /* MinSizeRel */,
+				2C6FE04005E6420D82783F15 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		348D1333793D44B0BCF8B34D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B53C034903B4BA9BDF05AB5 /* Debug */,
+				B9C2ED2A314347139DEA430E /* Release */,
+				8394F2B51BAD40218568126F /* MinSizeRel */,
+				C15124D0D16B4686ADCA246A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		93F6DFF56A704966A9BA0054 /* Build configuration list for PBXNativeTarget "vecmath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B4CA85CD9A4B86ABFBE250 /* Debug */,
+				DF6DB49BFF5A40BBB35F1865 /* Release */,
+				8F834A9EED894ADFB108468D /* MinSizeRel */,
+				1019690A8AD14503A895E108 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A7E1B111EAA94BCAB60C7EA4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5D5EABDF8DC4C8ABD8EAB00 /* Debug */,
+				B61AE13528EE4DF0A9E61D57 /* Release */,
+				E2F3333199234A78B948023A /* MinSizeRel */,
+				9A77C76D55E64DB6B79C3B7B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BAF631635D5E4682BEBA22E1 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3FBF28BD1E41A8A08C28C0 /* Debug */,
+				1CC09F78A262458287C17CA9 /* Release */,
+				43D1E1D330E24098B3179E9F /* MinSizeRel */,
+				B05DAC0427454C42A62A4044 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F009B5A1925842F19AD7BE4D /* Project object */;
+}

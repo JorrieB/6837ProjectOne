@@ -1,0 +1,4 @@
+/Users/jorriebrettin/Desktop/Fall2015/6.837/one/CMakeFiles/ALL_BUILD.dir
+/Users/jorriebrettin/Desktop/Fall2015/6.837/one/src/CMakeFiles/a1.dir
+/Users/jorriebrettin/Desktop/Fall2015/6.837/one/vecmath/CMakeFiles/vecmath.dir
+/Users/jorriebrettin/Desktop/Fall2015/6.837/one/CMakeFiles/ZERO_CHECK.dir
